@@ -5,6 +5,6 @@ def index (request):
     print "CHECKPOINT: Thanks for joining us. You are going to Landing."
     return render(request, 'amazingKidsApp/index.html')
 
-def curriculum(request):
+def curriculum (request):
     print "CHECKPOINT: Thanks for joining us. You are going to curriculum."
     return render(request, "amazingKidsApp/curriculum.html")
